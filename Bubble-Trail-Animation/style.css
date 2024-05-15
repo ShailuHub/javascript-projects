@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+}
+
+span {
+  background: url("https://cdn4.iconfinder.com/data/icons/Basic_set2_Png/64/bubble.png");
+  position: absolute;
+  background-size: cover;
+  pointer-events: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: animateHeart 6s linear;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    filter: hue-rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -5000%);
+    opacity: 1;
+    filter: hue-rotate(720deg);
+  }
+}

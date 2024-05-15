@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
+  text-align: center;
+}
+
+.image-container {
+  width: 98%;
+  margin: auto;
+  text-align: center;
+
+  padding: 10px;
+}
+
+.image-container img {
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  transition: scale 0.5s;
+}
+
+.image-container img:hover {
+  scale: 1.03;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
